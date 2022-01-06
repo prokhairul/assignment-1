@@ -24,24 +24,25 @@ body{
     width: 60%;
 }
 
-.color-border-left{
-        border-left: 5px solid #FA4616;
-        height: 125px;
-        margin-top: 23px;
-        margin-right: 10px;
-        float: left;
-        border-radius: 5px;
+.vertical-border{
+    border-left: 5px solid #FA4616;
+    height: 115px;
+    margin: 11px 10px 0px 0px;
+    float: left;
+    border-radius: 5px;
 }
 
 .aboutme-left h1{
     font-size: 70px;
     margin: 0;
+    font-family: 'Righteous', cursive;
+    font-weight: 500;
 }
 .aboutme-left h2{
     font-size: 30px;
     color: #8490ff;
     margin: 0px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .aboutme-left h3{
@@ -130,8 +131,8 @@ body{
 
 .mission-content {
     width: 50%;
-    margin-left: -170px;
-    margin-top: 50px;
+    margin: 50px 0px 0px -170px;
+
 }
 
 .mission-content h2{
@@ -182,11 +183,11 @@ body{
 }
 
 .contact-flex{
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact{padding: 0% 10% 0% 10%;}
@@ -234,7 +235,7 @@ input[type=text], select {
     box-sizing: border-box;
   }
 
-  input[type=number], select {
+  input[type=tel], select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -273,6 +274,7 @@ footer{
     background-color: #0c1116;
     color: white;
     padding: 25px 0px 25px 0px;
+    font-family: 'Lato', sans-serif;
 }
 
 footer a{
