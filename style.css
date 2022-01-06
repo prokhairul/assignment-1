@@ -110,6 +110,7 @@ body{
 .service-area h4{font-size: 25px;}
 .service-area p{
     font-size: 20px;
+    text-align: justify;
 }
 
 .mission{
@@ -141,6 +142,7 @@ body{
     font-size: 20px;
     padding-right: 20px;
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 .vision{
@@ -166,6 +168,7 @@ body{
 .vison-content p{
     font-size: 20px;
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 .vision-img-part{
@@ -274,7 +277,7 @@ footer{
 
 footer a{
     text-decoration: none;
-    color: #08b9ffd7;
+    color: #50cbfcd7;
 }
 
 .footer-title{color: #62bdfc;}
